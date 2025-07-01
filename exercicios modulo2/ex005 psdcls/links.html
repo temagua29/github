@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+            #  =  id
+            .  =  class
+            :  =  pseudo-class
+            :: =  pseudo-element
+            >  =  children
+        */
+        body {
+            font-family: ;
+        }
+        
+        a {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(209, 158, 158);
+        }
+
+        .especial::after {
+            content:'←';
+        }
+
+        .especial::before {
+            content: '→';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://dc.fandom.com/pt-br/wiki/Batman">Batman</a></li>
+        <li><a href="https://dc.fandom.com/pt-br/wiki/Superman" class="especial">SuperMan</a></li>
+        <li><a href="https://dc.fandom.com/pt-br/wiki/Mulher-Maravilha">Wonder Woman</a></li>
+    </ul>
+</body>
+</html>

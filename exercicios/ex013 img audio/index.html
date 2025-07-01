@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Abra esse site em dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/imgp.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/imgm.png" type="image/png">
+        <img src="imagens/imgg.png" alt="imagen flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Melhor musica do futparodias</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/impossivel.mp3" type="audio/mpeg">
+        <!--usar outros tipos de audio-->
+    </audio>
+    <br>
+    <button>
+            Caso não funcione baixe o arquivo <a href="midia/impossivel.mp3" download="midia/impossivel.mp3">aqui</a>
+        </button>
+</body>
+</html>

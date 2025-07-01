@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: 2px 1px 10px 5px rgba(0, 0, 0, 0.473);
+            border-radius: 5px;
+        }
+        nav {
+            background-color: rgb(118, 118, 118);
+            padding: 3px;
+            border-radius: 5px;
+            box-shadow: 5px 3px 3px 1px rgba(0, 0, 0, 0.447);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        article > aside {
+            background-color: rgb(171, 170, 170);
+            border-radius: 5px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="caixa03.html">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <section id="noticias">
+                <article>
+                    <h2>Noticias</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ex in tenetur eum nostrum dicta numquam aliquid, neque quod ullam, ipsa beatae, esse eos vero eius quas consequatur eligendi provident.</p>
+                    <aside>
+                        <p>Escrivido</p>
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>developed by thiago</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
